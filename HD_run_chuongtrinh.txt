@@ -1,0 +1,20 @@
+Các bước chạy chương trình
+1. Tạo và kích hoạt môi trường ảo
+Trước tiên, bạn cần cài đặt virtualenv nếu chưa có. Bạn có thể cài đặt virtualenv bằng cách sử dụng pip:
+pip install virtualenv
+
+Tạo một môi trường ảo mới trong thư mục dự án của bạn:
+virtualenv venv
+
+Kích hoạt môi trường ảo:
+- Trên Windows: venv\Scripts\activate
+- Trên MacOS hoặc Linux: source venv/bin/activate
+
+Sau khi môi trường ảo được kích hoạt, cài đặt các gói cần thiết từ requirements.txt:
+pip install -r requirements.txt
+
+2. Chạy ứng dụng Streamlit
+streamlit run app.py
+
+
+Lưu ý: Hãy đảm bảo rằng bạn đã có Python 3.10 được cài đặt trên hệ thống trước khi tạo môi trường ảo.
